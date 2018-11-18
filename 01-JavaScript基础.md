@@ -7,12 +7,7 @@ typora-copy-images-to: media
 
 # JavaScript基础
 
-HTML和CSS   京东
-
-## 课前娱乐
-
-**众人皆笑我疯癫,我笑尔等看不穿**
-![一盘棋而已](media/yule-1.png)
+HTML和CSS   
 
 ##课前说明
 目标：掌握编程的基本思想
