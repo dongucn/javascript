@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//输入边长
+		var perimeter = parseFloat(prompt("请输入六边形的边长"));
+		//计算
+		//Math.sqrt() 函数返回一个数的平方根;
+		// Math.sqrt(9); // 3
+		// Math.sqrt(2); // 1.414213562373095
+		// Math.sqrt(1);  // 1
+		// Math.sqrt(0);  // 0
+		// Math.sqrt(-1); // NaN
+
+		// Math.pow() 函数返回基数（base）的指数（exponent）次幂
+		var Calculation = 3 * Math.sqrt(3) / 2 * Math.pow(perimeter,2);
+		//输出
+		console.log("面积是" + Calculation);
+	</script>
+</body>
+</html>
