@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		 a = 100;
+		 var a;		//这行定义会被自动提升
+		 console.log(a);
+
+		console.log(b);		//只提升定义，而不能赋值。输出undefined
+		var b = 100;		//提升定义，不能提升赋值;
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
