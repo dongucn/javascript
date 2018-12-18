@@ -15,8 +15,8 @@ for(var i = 1 ; i <= 5 ; i++){
 			var str = "";
 			while(true){
 				if(n % 2 == 1){
-					//奇变偶不变
-					str += char;
+				//奇变偶不变
+				str += char;
 				}
 				//验证
 				if(n == 1 || n == 0){
