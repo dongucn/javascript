@@ -1,13 +1,13 @@
 //常用法
 var str1;
-		var str2;
-		var str;
-		for(var i = 1 ; i <= 5 ; i++){
-			str1 = repeat(" ",5 - i);
-			str2 = repeat("*",2 * i - 1);
-			str = str1 + str2;
-			console.log(str);
-		}
+var str2;
+ar str;
+for(var i = 1 ; i <= 5 ; i++){
+	str1 = repeat(" ",5 - i);
+	str2 = repeat("*",2 * i - 1);
+	str = str1 + str2;
+	console.log(str);
+}
 		
 		
 		//二分法
