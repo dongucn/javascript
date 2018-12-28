@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<button>click</button>
+</head>
+
+<body>
+	<script>
+		function addEvent(obj, eventType, fn, bool) {
+			if (obj.addEventListener) {
+				obj.addEventListener(eventType, fn, bool);
+			} else if (obj.attachEvent) {
+				obj.attachEvent("on" + eventType, function () {
+					fn.call(obj);
+				});
+			} else {
+				obj["on" + eventType] = fn;
+			}
+		}
+		let btn = document.getElementsByTagName("button")[0];
+		addEvent(btn, "click", function () {
+			alert("hello js");
+		});
+	</script>
+</body>
+
+</html>
